@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 const db = require('./db');
 
-db.sync();
+
 
 const Activity = db.define('activity', {
 	name: {type: Sequelize.STRING},

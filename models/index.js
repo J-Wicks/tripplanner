@@ -6,8 +6,11 @@ const Restaurant = require('./restaurant');
 const Activity = require('./activity');
 
 
-Hotel.belongsTo(Place);
-Activity.belongsTo(Place);
-Restaurant.belongsTo(Place);
 
+	Hotel.belongsTo(Place);
+	Activity.belongsTo(Place);
+	Restaurant.belongsTo(Place);	
+	
 module.exports = db;
+
+

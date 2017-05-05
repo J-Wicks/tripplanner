@@ -1,7 +1,6 @@
 const Sequelize = require('sequelize');
 const db = require('./db');
 
-db.sync();
 
 const Hotel = db.define('hotel', {
 	name: {type: Sequelize.STRING},
