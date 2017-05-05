@@ -4,10 +4,12 @@ var bodyparser = require ('body-parser');
 // var router = express.Router();
 var morgan = require('morgan');
 const PORT = 8080;
+const models = require('./models');
 
 
-app.listen(PORT);
+	app.listen(PORT);
 console.log('Listening on ' + PORT);
+
 
 app.use(morgan('short'));
 
