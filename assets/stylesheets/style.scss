@@ -1,0 +1,69 @@
+p {
+	color: white;
+}
+
+
+
+html, body {
+    width:100%;
+    position:relative;
+    height:100%;
+}
+
+.navbar.navbar-inverse {
+	margin-bottom: 0px;
+	
+	display: block;
+}
+
+
+.navbar{
+	float:none;
+	.container{
+	margin-left: 0;
+}	
+	.btn-group{
+		height: 50px;
+	}
+
+	.btn-default{
+	font-size: 1.10em;
+	float:left;
+	color: white;
+	background-color:transparent;
+	border:none;
+	height:50px;
+	border-radius: 0;
+}	
+
+/*	.btn-group>.btn:hover {
+    z-index: 2;
+    color: white;
+    background-color: #2f4463;
+}
+*/
+	 .btn-group>.btn:focus, .btn-group>.btn:hover {
+     z-index: 2;
+    color: white;
+    background-color: #2f4463;
+    border:none;
+}
+	.btn-group>.btn:active{
+		
+	}
+
+}
+
+.section-colored {
+	background-color: lightgray;
+	height:100%;
+	margin-top:50px;
+}
+
+#main {
+
+  background-color: gray; }
+
+.menu{
+	margin-top:20px;
+}

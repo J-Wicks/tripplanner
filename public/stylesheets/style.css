@@ -1,0 +1,48 @@
+p {
+  color: white; }
+
+html, body {
+  width: 100%;
+  position: relative;
+  height: 100%; }
+
+.navbar.navbar-inverse {
+  margin-bottom: 0px;
+  display: block; }
+
+.navbar {
+  float: none;
+  /*	.btn-group>.btn:hover {
+    z-index: 2;
+    color: white;
+    background-color: #2f4463;
+}
+*/ }
+  .navbar .container {
+    margin-left: 0; }
+  .navbar .btn-group {
+    height: 50px; }
+  .navbar .btn-default {
+    font-size: 1.10em;
+    float: left;
+    color: white;
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    border-radius: 0; }
+  .navbar .btn-group > .btn:focus, .navbar .btn-group > .btn:hover {
+    z-index: 2;
+    color: white;
+    background-color: #2f4463;
+    border: none; }
+
+.section-colored {
+  background-color: lightgray;
+  height: 100%;
+  margin-top: 50px; }
+
+#main {
+  background-color: gray; }
+
+.menu {
+  margin-top: 20px; }
